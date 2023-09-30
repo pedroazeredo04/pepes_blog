@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Pepe Blog</title>
+    <link>https://pedroazeredo04.github.io/pepe_blog/</link>
+    <description>Recent content in Home on Pepe Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 30 Sep 2023 11:34:09 -0300</lastBuildDate><atom:link href="https://pedroazeredo04.github.io/pepe_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://pedroazeredo04.github.io/pepe_blog/about/</link>
+      <pubDate>Sat, 30 Sep 2023 11:34:09 -0300</pubDate>
+      
+      <guid>https://pedroazeredo04.github.io/pepe_blog/about/</guid>
+      <description>Esta página contém informações sobre minha humilde pessoa.</description>
+    </item>
+    
+  </channel>
+</rss>
