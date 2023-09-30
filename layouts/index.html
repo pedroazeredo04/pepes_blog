@@ -1,4 +1,57 @@
 {{ define "main" }}
     <h2>{{ .Title }}</h2>
     {{ .Content }}
+
+    <ul class="container">
+        <li class="flex-item">
+            <div class="window" style="margin: 32px; width: 250px">
+                <div class="title-bar">
+        
+                    <div class="title-bar-text">
+                        Wilkomenn
+                    </div>
+          
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+        
+                </div>
+        
+                <div class="window-body">
+                    <img id="welcome" src="{{ relURL "images/welcome.gif" }}" alt="Minha Figura" class="center">
+                </div>
+            </div>
+
+        </li>
+        <li class="flex-item">
+
+            <div class="window" style="margin: 32px; width: 250px">
+                <div class="title-bar">
+        
+                    <div class="title-bar-text">
+                        pepe Rules!
+                    </div>
+          
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                    </div>
+        
+                </div>
+        
+                <div class="window-body">
+                    <img id="welcome" src="{{ relURL "images/blog2.gif" }}" alt="Minha Figura" class="center">
+                </div>
+            </div>
+            
+        </li>
+    </ul>
+
+    
+
+
+
 {{ end }}
