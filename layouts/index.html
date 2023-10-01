@@ -1,57 +1,37 @@
 {{ define "main" }}
     <h2>{{ .Title }}</h2>
-    {{ .Content }}
 
-    <ul class="container">
-        <li class="flex-item">
-            <div class="window" style="margin: 32px; width: 250px">
-                <div class="title-bar">
-        
-                    <div class="title-bar-text">
-                        Wilkomenn
-                    </div>
-          
-                    <div class="title-bar-controls">
-                        <button aria-label="Minimize"></button>
-                        <button aria-label="Maximize"></button>
-                        <button aria-label="Close"></button>
-                    </div>
-        
-                </div>
-        
-                <div class="window-body">
-                    <img id="welcome" src="{{ relURL "images/welcome.gif" }}" alt="Minha Figura" class="center">
-                </div>
-            </div>
-
-        </li>
-        <li class="flex-item">
-
-            <div class="window" style="margin: 32px; width: 250px">
-                <div class="title-bar">
-        
-                    <div class="title-bar-text">
-                        pepe Rules!
-                    </div>
-          
-                    <div class="title-bar-controls">
-                        <button aria-label="Minimize"></button>
-                        <button aria-label="Maximize"></button>
-                        <button aria-label="Close"></button>
-                    </div>
-        
-                </div>
-        
-                <div class="window-body">
-                    <img id="welcome" src="{{ relURL "images/blog2.gif" }}" alt="Minha Figura" class="center">
-                </div>
-            </div>
-            
-        </li>
-    </ul>
-
+    <section class="text-spot">
+        <ul class="container">
+            <li class="flex-item">
+                <img id="welcome" src="{{ relURL "images/welcome.gif" }}" alt="Minha Figura" class="center">
+            </li>
     
+            <li class="flex-item">
+                <img id="welcome" src="{{ relURL "images/blog2.gif" }}" alt="Minha Figura" class="center">
+            </li>
+        </ul>
 
+        <p class="textao">Boas vindas!</p>
 
+        <p class="texto">Sinta-se à vontade para explorá-lo</p>
+    </section>
+
+    <!-- Mensagens de boas vindas! -->
+    <div class="window" id="about">
+        <div class="title-bar">
+            <div class="title-bar-text">Sobre</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <p><a href="/pepe_blog/about">Quem sou <b>eu</b>?</a></p>
+        </div>
+    </div>
+
+    {{ .Content }}
 
 {{ end }}

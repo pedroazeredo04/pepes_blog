@@ -1,0 +1,19 @@
+.window#about {
+    width: 10%;
+    margin: 0 0 0 0;
+    top: 25%;
+    left: 15%;
+    z-index: 3;
+    position: absolute;
+}
+
+@media screen and (max-width: 640px) {
+    .window#about {
+        width: 25%;
+        margin: 0 0 0 0;
+        top: 17%;
+        left: 5%;
+        z-index: 3;
+        position: absolute;
+    }
+}
