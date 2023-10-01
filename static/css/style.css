@@ -194,3 +194,43 @@ nav a.current {
     text-align: center;
     border: 5px solid var(--primary-color);
 }
+
+/* Estilos para a lista de posts */
+.post-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post-item {
+    width: calc(25% - 20px); /* 4 colunas por padrão, com margens */
+    margin: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para diferentes tamanhos de tela usando media queries */
+
+/* Para telas grandes, 4 colunas */
+@media (max-width: 1200px) {
+    li {
+        width: calc(33.33% - 20px); /* 3 colunas */
+    }
+}
+
+/* Para telas médias, 3 colunas */
+@media (max-width: 800px) {
+    li {
+        width: calc(50% - 20px); /* 2 colunas */
+    }
+}
+
+/* Para telas pequenas, 2 colunas */
+@media (max-width: 600px) {
+    li {
+        width: calc(100% - 20px); /* 1 coluna */
+    }
+}
