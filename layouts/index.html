@@ -3,6 +3,7 @@
         <ul>
             <li><a href="{{ relURL "" }}" class="current" class="nav-texto" >Home</a></li>
             <li><a href="{{ relURL "about" }}" class="nav-texto">Sobre</a></li>
+            <li><a href="{{ relURL "posts" }}" class="nav-texto">Posts</a></li>
         </ul>
     </nav>
 
@@ -19,10 +20,10 @@
 
         <p class="textao">Esse é o meu site!</p>
 
-        <p class="texto">Sinta-se à vontade para explorá-lo</p>
+        <p class="texto">Ele é um blog</p>
     </section>
 
-    <!-- Mensagens de boas vindas! -->
+    <!-- Box sobre quem eu sou?! -->
     <div class="window" id="about">
         <div class="title-bar">
             <div class="title-bar-text">Sobre</div>
@@ -33,7 +34,24 @@
             </div>
         </div>
         <div class="window-body">
-            <p><a href="/pepe_blog/about">Quem sou <b>eu</b>?</a></p>
+            <img id="welcome" src="{{ relURL "images/thinking2.gif" }}" alt="Minha Figura" class="center" style="width: 100%;">
+            <p><a href="/pepe_blog/about">Quem sou eu?</a></p>
+        </div>
+    </div>
+
+    <!-- Box os posts?! -->
+    <div class="window" id="links">
+        <div class="title-bar">
+            <div class="title-bar-text">Posts</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <img id="infinite-computer" src="{{ relURL "images/internaut.gif" }}" alt="Minha Figura" class="center" style="width: 100%;">
+            <p><a href="/pepe_blog/posts">Leia meus posts!</a></p>
         </div>
     </div>
 

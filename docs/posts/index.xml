@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on pepes blog</title>
-    <link>https://pedroazeredo04.github.io/pepe_blog/</link>
-    <description>Recent content in Home on pepes blog</description>
+    <title>Posts on pepes blog</title>
+    <link>https://pedroazeredo04.github.io/pepe_blog/posts/</link>
+    <description>Recent content in Posts on pepes blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 30 Sep 2023 11:34:09 -0300</lastBuildDate><atom:link href="https://pedroazeredo04.github.io/pepe_blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Posts_list</title>
-      <link>https://pedroazeredo04.github.io/pepe_blog/posts_list/</link>
-      <pubDate>Sun, 01 Oct 2023 04:41:13 -0300</pubDate>
-      
-      <guid>https://pedroazeredo04.github.io/pepe_blog/posts_list/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Sun, 01 Oct 2023 04:02:09 -0300</lastBuildDate><atom:link href="https://pedroazeredo04.github.io/pepe_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post2</title>
       <link>https://pedroazeredo04.github.io/pepe_blog/posts/post2/</link>
@@ -32,15 +23,6 @@
       
       <guid>https://pedroazeredo04.github.io/pepe_blog/posts/post1/</guid>
       <description>Esse é o primeiro post que estou fazendo no meu blog. Impressioante como as coisas chegaram aqui. No momento são 4h03 da manhã, estou ouvindo uma playlist de música da nintendo e terminando o site. Minha namorada está dormindo aqui do lado e eu adoraria estar dormindo com ela. De fato fazer um site dá muito mais trabalho do que parece, mas é muito divertido também.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://pedroazeredo04.github.io/pepe_blog/about/</link>
-      <pubDate>Sat, 30 Sep 2023 11:34:09 -0300</pubDate>
-      
-      <guid>https://pedroazeredo04.github.io/pepe_blog/about/</guid>
-      <description></description>
     </item>
     
   </channel>

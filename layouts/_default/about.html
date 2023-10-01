@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<nav>
+    <ul>
+        <li><a href="{{ relURL "" }}" class="nav-texto" >Home</a></li>
+        <li><a href="{{ relURL "about" }}" class="current" class="nav-texto">Sobre</a></li>
+        <li><a href="{{ relURL "posts" }}" class="nav-texto">Posts</a></li>
+    </ul>
+</nav>
+
+<section class="text-spot">
+    <p class="textao"> Sobre mim </p>
+    <p class="texto"> Eu sou o Pedro, estudo engenharia mecatrônica e gosto de robótica, escrever código, tocar violão, das músicas do John Mayer, tomar sorvete na praça e JotaQuest</p>
+    <p class="texto"> Atualmente faço parte da Equipe ThundeRatz de robótica e estou aprendendo alemão</p>
+</section>
+
+    <!-- Box sobre tocar violão?! -->
+    <div class="window" id="violao">
+        <div class="title-bar">
+            <div class="title-bar-text">Sobre</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <img id="welcome" src="{{ relURL "images/violao.gif" }}" alt="Minha Figura" class="center" style="width: 100%;">
+            <p class="windows-text">Eu tocando violão (imagem ilustrativa)</p>
+        </div>
+    </div>
+
+{{ .Content }}
+
+{{ end }}

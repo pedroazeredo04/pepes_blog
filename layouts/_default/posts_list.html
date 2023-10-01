@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<nav>
+    <ul>
+        <li><a href="{{ relURL "" }}" class="nav-texto" >Home</a></li>
+        <li><a href="{{ relURL "about" }}" class="nav-texto">Sobre</a></li>
+        <li><a href="{{ relURL "posts" }}" class="current" class="nav-texto">Posts</a></li>
+    </ul>
+</nav>
+
+<div class="post-box">
+<ul>
+    {{ range .Pages }}
+        <li class=""><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+</div>
+
+{{ end }}
