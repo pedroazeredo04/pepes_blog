@@ -186,7 +186,7 @@ nav a.current {
 .post-box:hover {
     display: block;
     background-color: var(--roxinho);
-    width: 40%;
+    width: 75%;
     height: auto; /* 'auto' para ajustar a altura conforme o conteúdo */
     margin: 20 auto; /* Simplificado para centralizar horizontalmente */
     align-self: center;
