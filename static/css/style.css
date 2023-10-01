@@ -1,12 +1,9 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #ffffff;
-    --primary-background: #fbfbfc;
-    --article-background: #0044ff;
-    --cabecalho-background: #f6b6eb;
+    --nav-color: #0044ff;
+    --roxinho: #f6b6eb;
     --article-border-color: #ba5741;
 
-    --text-section-color: #f0eecf;
+    --bege: #f0eecf;
 
     color: white;
 
@@ -65,7 +62,7 @@ body {
     padding: 5px;
     width: 300px;
     margin-top: 10px;
-    color: var(--text-section-color); 
+    color: var(--bege); 
     font-weight: bold;
     font-size: 3em;
     text-align: center;
@@ -79,7 +76,7 @@ html {
 
 .text-spot {
     display: block;
-    background-color: var(--text-section-color);
+    background-color: var(--bege);
     width: 70%;
     height: auto; /* 'auto' para ajustar a altura conforme o conteúdo */
     margin: 20 auto; /* Simplificado para centralizar horizontalmente */
@@ -87,6 +84,27 @@ html {
     padding: 20px;
     text-align: center;
     border: 5px solid var(--primary-color);
+    position: relative;
+}
+
+.return-arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 30%;
+}
+
+.return-box {
+    display: block;
+    background-color: white;
+    width: 50px;
+    margin: 0 0 0 0;
+    bottom: 240;
+    left: 10%;
+    z-index: 3;
+    position: relative;
+    border: 5px solid var(--nav-color)
 }
 
 .textaozao {
@@ -130,7 +148,7 @@ nav ul {
 
 nav li {
     display: inline;
-    background-color: var(--article-background);
+    background-color: var(--nav-color);
     margin: 10px;
     padding: 10px;
     border: 5px solid var(--article-border-color);
@@ -155,7 +173,7 @@ nav a.current {
 
 .post-box {
     display: block;
-    background-color: var(--text-section-color);
+    background-color: var(--bege);
     width: 40%;
     height: auto; /* 'auto' para ajustar a altura conforme o conteúdo */
     margin: 20 auto; /* Simplificado para centralizar horizontalmente */
@@ -167,7 +185,7 @@ nav a.current {
 
 .post-box:hover {
     display: block;
-    background-color: var(--cabecalho-background);
+    background-color: var(--roxinho);
     width: 40%;
     height: auto; /* 'auto' para ajustar a altura conforme o conteúdo */
     margin: 20 auto; /* Simplificado para centralizar horizontalmente */
