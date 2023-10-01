@@ -1,5 +1,5 @@
 ---
-title: "Post2"
+title: "por que essa estética?"
 date: 2023-10-01T04:02:09-03:00
 draft: false
 layout: "post"
