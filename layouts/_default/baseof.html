@@ -9,6 +9,16 @@
         {{ end }}
     </main>
     {{ partial "footer.html" . }}
+
+    <script type="text/javascript">
+        const audio = new Audio("erro.mp3");
+        const playButton = document.getElementById('playButton');
+        
+        playButton.addEventListener('click', function() {
+            audio.play();
+        });
+    </script>
+
 </body>
 
 </html>
