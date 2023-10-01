@@ -100,10 +100,10 @@ html {
     background-color: white;
     width: 50px;
     margin: 0 0 0 0;
-    bottom: 240;
-    left: 10%;
+    top: 10%;
+    left: 21%;
     z-index: 3;
-    position: relative;
+    position: absolute;
     border: 5px solid var(--nav-color)
 }
 
@@ -225,11 +225,22 @@ nav a.current {
     .post-item {
         width: calc(50% - 20px); /* 2 colunas */
     }
+
+    .return-box {
+        width: 5%;
+        top: 10%;
+        left: 20%;
+    }
 }
 
 /* Para telas pequenas, 2 colunas */
 @media screen and (max-width: 600px) {
     .post-item {
         width: calc(100% - 20px); /* 1 coluna */
+    }
+
+    .return-box {
+        width: 4%;
+        top: 7%;
     }
 }
