@@ -1,5 +1,10 @@
 {{ define "main" }}
-    <h2>{{ .Title }}</h2>
+    <nav>
+        <ul>
+            <li><a href="{{ relURL "" }}" class="current" class="nav-texto" >Home</a></li>
+            <li><a href="{{ relURL "about" }}" class="nav-texto">Sobre</a></li>
+        </ul>
+    </nav>
 
     <section class="text-spot">
         <ul class="container">
@@ -12,7 +17,7 @@
             </li>
         </ul>
 
-        <p class="textao">Boas vindas!</p>
+        <p class="textao">Esse é o meu site!</p>
 
         <p class="texto">Sinta-se à vontade para explorá-lo</p>
     </section>
