@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on pepes blog</title>
-    <link>https://pedroazeredo04.github.io/pepe_blog/posts/</link>
+    <link>https://pedroazeredo04.github.io/pepes_blog/posts/</link>
     <description>Recent content in Posts on pepes blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 01 Oct 2023 04:02:09 -0300</lastBuildDate><atom:link href="https://pedroazeredo04.github.io/pepe_blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Oct 2023 04:02:09 -0300</lastBuildDate><atom:link href="https://pedroazeredo04.github.io/pepes_blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post2</title>
-      <link>https://pedroazeredo04.github.io/pepe_blog/posts/post2/</link>
+      <link>https://pedroazeredo04.github.io/pepes_blog/posts/post2/</link>
       <pubDate>Sun, 01 Oct 2023 04:02:09 -0300</pubDate>
       
-      <guid>https://pedroazeredo04.github.io/pepe_blog/posts/post2/</guid>
+      <guid>https://pedroazeredo04.github.io/pepes_blog/posts/post2/</guid>
       <description>Esse é o segundo post. Eu fiquei muito feliz e animado com a ideia de fazer um blog porque hoje eu me lembrei de como era ser um membro ativo do fórum do Euclides (fórum piR2), que eu fui durante a pandemia. E esse sentimento que o blog me passava de &amp;ldquo;internet velha&amp;rdquo;, cheio de gifs e HTML meio mal feito me marcou muito, e eu tentei replicar isso nesse site.</description>
     </item>
     
     <item>
       <title>Post1</title>
-      <link>https://pedroazeredo04.github.io/pepe_blog/posts/post1/</link>
+      <link>https://pedroazeredo04.github.io/pepes_blog/posts/post1/</link>
       <pubDate>Sun, 01 Oct 2023 04:02:04 -0300</pubDate>
       
-      <guid>https://pedroazeredo04.github.io/pepe_blog/posts/post1/</guid>
+      <guid>https://pedroazeredo04.github.io/pepes_blog/posts/post1/</guid>
       <description>Esse é o primeiro post que estou fazendo no meu blog. Impressioante como as coisas chegaram aqui. No momento são 4h03 da manhã, estou ouvindo uma playlist de música da nintendo e terminando o site. Minha namorada está dormindo aqui do lado e eu adoraria estar dormindo com ela. De fato fazer um site dá muito mais trabalho do que parece, mas é muito divertido também.</description>
     </item>
     
