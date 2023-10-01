@@ -3,7 +3,7 @@
     --secondary-color: #ffffff;
     --primary-background: #fbfbfc;
     --article-background: #0044ff;
-    --cabecalho-background: #F4A896;
+    --cabecalho-background: #f6b6eb;
     --article-border-color: #ba5741;
 
     --text-section-color: #f0eecf;
@@ -155,7 +155,20 @@ nav a.current {
 
 .post-box {
     display: block;
-    background-color: white;
+    background-color: var(--text-section-color);
+    width: 40%;
+    height: auto; /* 'auto' para ajustar a altura conforme o conteúdo */
+    margin: 20 auto; /* Simplificado para centralizar horizontalmente */
+    align-self: center;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid var(--primary-color);
+}
+
+.post-box:hover {
+    display: block;
+    background-color: var(--cabecalho-background);
+    width: 40%;
     height: auto; /* 'auto' para ajustar a altura conforme o conteúdo */
     margin: 20 auto; /* Simplificado para centralizar horizontalmente */
     align-self: center;
