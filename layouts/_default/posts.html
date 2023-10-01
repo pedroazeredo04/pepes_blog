@@ -8,23 +8,24 @@
     </ul>
 </nav>
 
-<ul>
-    {{ range .Pages }}
-        <li> <a href="{{ .RelPermalink }}"> {{ .Title }} </a> </li>
-    {{ end }}
-</ul>
 
 {{ with .Pages }}
     <!-- Se .Pages estiver definido, você pode colocar seu código aqui -->
     <ul>
         {{ range . }}
-            <li> <a href="{{ .RelPermalink }}"> {{ .Title }} </a> </li>
+        <li>
+            <a href="{{ .RelPermalink }}"> 
+                <div class = "text-spot">
+                    <p class="texto">{{ .Title }}</p> 
+                </div>
+            </a>
+        </li> 
         {{ end }}
     </ul>
 {{ else }}
     <!-- Se .Pages não estiver definido ou estiver vazio, você pode tratar isso aqui -->
     <p>Nenhum post disponível.</p>
 {{ end }}
-
+</div>
 
 {{ end }}
