@@ -8,12 +8,23 @@
     </ul>
 </nav>
 
-<div class="post-box">
 <ul>
     {{ range .Pages }}
-        <li class=""><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        <li> <a href="{{ .RelPermalink }}"> {{ .Title }} </a> </li>
     {{ end }}
 </ul>
-</div>
+
+{{ with .Pages }}
+    <!-- Se .Pages estiver definido, você pode colocar seu código aqui -->
+    <ul>
+        {{ range . }}
+            <li> <a href="{{ .RelPermalink }}"> {{ .Title }} </a> </li>
+        {{ end }}
+    </ul>
+{{ else }}
+    <!-- Se .Pages não estiver definido ou estiver vazio, você pode tratar isso aqui -->
+    <p>Nenhum post disponível.</p>
+{{ end }}
+
 
 {{ end }}
