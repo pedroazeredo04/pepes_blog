@@ -174,7 +174,7 @@ nav a.current {
 .post-box {
     display: block;
     background-color: var(--bege);
-    width: 40%;
+    width: 75%;
     height: auto; /* 'auto' para ajustar a altura conforme o conteúdo */
     margin: 20 auto; /* Simplificado para centralizar horizontalmente */
     align-self: center;
@@ -207,7 +207,6 @@ nav a.current {
 .post-item {
     width: calc(25% - 20px); /* 4 colunas por padrão, com margens */
     margin: 10px;
-    background-color: #f0f0f0;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -215,22 +214,22 @@ nav a.current {
 /* Estilos para diferentes tamanhos de tela usando media queries */
 
 /* Para telas grandes, 4 colunas */
-@media (max-width: 1200px) {
-    li {
+@media screen and (max-width: 1000px) {
+    .post-item {
         width: calc(33.33% - 20px); /* 3 colunas */
     }
 }
 
 /* Para telas médias, 3 colunas */
-@media (max-width: 800px) {
-    li {
+@media screen and (max-width: 800px) {
+    .post-item {
         width: calc(50% - 20px); /* 2 colunas */
     }
 }
 
 /* Para telas pequenas, 2 colunas */
-@media (max-width: 600px) {
-    li {
+@media screen and (max-width: 600px) {
+    .post-item {
         width: calc(100% - 20px); /* 1 coluna */
     }
 }

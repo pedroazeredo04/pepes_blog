@@ -29,15 +29,6 @@
     position: absolute;
 }
 
-.window#posts {
-    width: 9%;
-    margin: 0 0 0 0;
-    bottom: 30%;
-    left: 75%;
-    z-index: 3;
-    position: absolute;
-}
-
 @media screen and (max-width: 640px) {
     .window#about {
         width: 25%;
