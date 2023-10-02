@@ -1,5 +1,5 @@
 ---
-title: "Post5"
+title: "Ai que preguiça"
 date: 2023-10-02T09:38:38-03:00
 draft: false
 layout: "post"
