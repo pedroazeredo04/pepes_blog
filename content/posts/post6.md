@@ -1,5 +1,5 @@
 ---
-title: "Ideias para a escrita de posts"
+title: "ideias para a escrita de posts"
 date: 2023-10-02T09:42:02-03:00
 draft: false
 layout: "post"
