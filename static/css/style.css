@@ -131,7 +131,9 @@ html {
 .nav-texto {
     font-size: 1.5em;
     color: white;
-    font: 'Chicago', 'sans-serif';
+    font-family: 'Chicago';
+    text-align: center;
+    font-weight: lighter;
 }
 
 h2 {
@@ -168,7 +170,8 @@ nav a.current {
     font-size: 1.5em;
     font-weight: bolder;
     color: rgb(163, 31, 31); /* Cor de destaque da página atual */
-    font: 'Chicago', 'sans-serif';
+    font-family: 'Chicago';
+    text-align: center;
 }
 
 .post-box {
@@ -209,6 +212,18 @@ nav a.current {
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.post-item-text {
+    font-size: 1.5em;
+    font-family: 'Chicago', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.post-item-text:hover {
+    text-decoration: underline;
 }
 
 /* Estilos para diferentes tamanhos de tela usando media queries */
