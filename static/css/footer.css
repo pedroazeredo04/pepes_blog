@@ -15,12 +15,12 @@ footer ul {
 
 footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 footer li a {
     transition: all 0.3s ease-in 0s, all 1s ease 0s;
-    margin-left: 10px;
+    margin-left: 5px;
     float: right;
     text-decoration: none;
     color: #999;
